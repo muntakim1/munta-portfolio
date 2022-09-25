@@ -1,7 +1,7 @@
 {
   "name": "muntakim-portfolio",
   "version": "0.1.0",
-  "homepage": "https://muntakim1.github.io/munta-portfolio/",
+  "homepage": "https://muntakim.xyz/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
