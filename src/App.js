@@ -659,32 +659,40 @@ function App() {
         <div className="container mx-auto py-5 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img className="w-8" src="./img/logo.png" alt="" />
-            <span className="text-2xl font-bold text-white">Portwind.</span>
+            <span className="text-2xl font-bold text-white">Muntakim.</span>
           </div>
           <span className="hidden md:block font-medium text-white">
-            © 2022 Portwind. Design with ♥️ by Lama Dev.
+            © 2022 Muntakim. Design with ♥️ by Muntakimur.
           </span>
           <div className="flex gap-2">
-            <img
-              className="w-4 cursor-pointer"
-              src="./img/facebook.png"
-              alt=""
-            />
-            <img
-              className="w-4 cursor-pointer"
-              src="./img/instagram.png"
-              alt=""
-            />
-            <img
-              className="w-4 cursor-pointer"
-              src="./img/twitter.png"
-              alt=""
-            />
-            <img
-              className="w-4 cursor-pointer"
-              src="./img/linkedin.png"
-              alt=""
-            />
+            <a href="www.facebook.com/caliph.bin.kabir">
+              <img
+                className="w-4 cursor-pointer"
+                src="./img/facebook.png"
+                alt=""
+              />
+            </a>
+            <a href="www.instagram/munta_insta">
+              <img
+                className="w-4 cursor-pointer"
+                src="./img/instagram.png"
+                alt=""
+              />
+            </a>
+            <a href="www.twitter.com/muntakimurr">
+              <img
+                className="w-4 cursor-pointer"
+                src="./img/twitter.png"
+                alt=""
+              />
+            </a>
+            <a href="www.linkedin.com/muntakim1">
+              <img
+                className="w-4 cursor-pointer"
+                src="./img/linkedin.png"
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </div>
