@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ThemeContext from "./ThemeContext";
+
 ReactDOM.render(
-  <ThemeContext>
-    <App />
-  </ThemeContext>,
+  <App />,
+
   document.getElementById("root")
 );
 

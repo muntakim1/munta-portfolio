@@ -1,13 +1,8 @@
 import React from "react";
-import { ThemeContext } from "./ThemeContext";
+
 function App() {
-  const { theme, setTheme } = React.useContext(ThemeContext);
-  const changeTheme = (event) => {
-    console.log(event.target);
-    setTheme(event.target.value);
-  };
   return (
-    <div className={`bg-${theme}`}>
+    <div>
       {" "}
       <div className="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
         <nav className="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
@@ -41,7 +36,7 @@ function App() {
                 <a href="#contact">contact</a>
               </li>
             </ul>
-            <button onClick={changeTheme}></button>
+
             {/* <div className="flex">
               <img
                 id="moon"
