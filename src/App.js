@@ -8,7 +8,12 @@ function App() {
         <nav className="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
           <div className="container mx-auto py-5 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <img className="w-8" src="./img/logo.png" alt="" />
+              <img
+                className="w-8"
+                src="./img/potrait.jpg"
+                style={{ borderRadius: "50%" }}
+                alt=""
+              />
               <span className="text-2xl font-bold text-indigo-900 dark:text-white">
                 Muntakim.
               </span>
@@ -115,11 +120,11 @@ function App() {
           </h1>
           <p className="text-gray-400">
             IBM's certified Data Scientist, Expert in Computer vision and Data
-            Analytics, Experienced in oil and gas industry.
+            Analytics, Experienced in RealEstate, FinTech, oil and gas industry.
           </p>
           <a
             className="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
-            href="./"
+            href="./Muntakimur_Rahaman.pdf"
           >
             Download CV
           </a>
@@ -155,12 +160,12 @@ function App() {
               <br />
               <div className="col-span-3">
                 <p className="text-gray-500">
-                  Muntakimur Rahaman 🐱‍🏍 is a technology geek and passionate
-                  person for big data technologies, he has working experience in
-                  managing streaming data from various resources. His background
-                  in data science, big data infrastructure, problem-solving
-                  strategy, data visualization, and project management inform
-                  his mindful but competitive approach.
+                  <b>Muntakimur Rahaman</b> 🐱‍🏍 is a technology geek and
+                  passionate person for big data technologies, he has working
+                  experience in managing streaming data from various resources.
+                  His background in data science, big data infrastructure,
+                  problem-solving strategy, data visualization, and project
+                  management inform his mindful but competitive approach.
                   <br />
                   Muntakim is fueled by his passion for understanding the
                   nuances of data science and data engineering. He considers
@@ -177,11 +182,12 @@ function App() {
                   ensuring a work-life balance for his department. Muntakim
                   believes mindfulness in the workplace is key to success - a
                   tenet he lives out through his interests in gym, meditation,
-                  gardening, and reading. Muntakim is currently working as a
-                  freelance data visualization expert & big data consultant in
-                  Fiverr and also a full-time backend engineer in an Aussi
-                  real-estate SAAS startup and is always interested in a
-                  challenge. Reach out to{" "}
+                  gardening, and reading. Muntakim worked with as a freelance
+                  data visualization expert & big data consultant in Fiverr and
+                  also a full-time backend engineer in an Aussi real-estate SAAS
+                  startup, Now currently he is working as a Data Scientist in an
+                  Australia Based analytic Firm(Innova-analytics.ai) and is
+                  always interested in a challenge. Reach out to{" "}
                   <a href="mailto:muntakim.cse@gmail.com">
                     muntakim.cse@gmail.com
                   </a>{" "}
@@ -206,6 +212,9 @@ function App() {
             </p>
           </div>
           <div className="p-5 sm:p-0 flex items-center flex-wrap justify-center">
+            <div className="h-full w-100 rounded-full m-5 overflow-hidden">
+              <img src="./img/industry.jpg" className="potrait" alt="" />
+            </div>
             <ol className="relative border-l border-gray-200 dark:border-gray-700">
               <li className="mb-10 ml-4 mr-5">
                 <span className="flex absolute -left-3 justify-center items-center w-5 h-5 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -242,7 +251,21 @@ function App() {
                 </p>
               </li>
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <span className="flex absolute -left-3 justify-center items-center w-5 h-5 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <svg
+                    aria-hidden="true"
+                    className="w-3 h-3 text-blue-600 dark:text-blue-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   June 2021 - June 2022
                 </time>
@@ -263,7 +286,21 @@ function App() {
                 </p>
               </li>
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <span className="flex absolute -left-3 justify-center items-center w-5 h-5 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <svg
+                    aria-hidden="true"
+                    className="w-3 h-3  text-blue-600 dark:text-blue-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   November 2020-October 2020
                 </time>
@@ -580,43 +617,46 @@ function App() {
             <h1 className="text-indigo-600 font-bold">PORTFOLIO</h1>
             <h1 className="text-3xl dark:text-white">Works & Projects</h1>
             <p className="w-1/2 text-center text-gray-400">
-              I help designers, small agencies and businesses bring their ideas
-              to life. Powered by Figma, VS Code and coffee, I turn your
-              requirements into a well-designed websites
+              I helped subject matter experts by providing data driven tools to
+              take better decision and create efficient marketing strategy.
             </p>
           </div>
 
           <div className="p-5 sm:p-0 flex flex-wrap justify-between">
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <a href="https://github.com/muntakim1/dash_cute_charts">
+                <img src="./img/projects/project-1.png" alt="1" />
+              </a>
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <a href="https://github.com/muntakim1/dash-three-component">
+                <img src="./img/projects/project-2.gif" alt="1" />
+              </a>
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <img src="./img/projects/project-3.png" alt="1" />
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <img src="./img/projects/project-4.jpg" alt="1" />
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <img src="./img/projects/projects-5.jpg" alt="1" />
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <img src="./img/projects/project-8.gif" alt="1" />
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <img src="./img/projects/project-10.jpg" alt="1" />
             </div>
 
             <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
-              <img src="./img/item.png" alt="1" />
+              <img src="./img/projects/project-6.jpg" alt="1" />
             </div>
           </div>
         </div>
@@ -658,7 +698,12 @@ function App() {
       <div className="w-full bg-gray-800">
         <div className="container mx-auto py-5 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img className="w-8" src="./img/logo.png" alt="" />
+            <img
+              className="w-8"
+              src="./img/potrait.jpg"
+              style={{ borderRadius: "50%" }}
+              alt=""
+            />
             <span className="text-2xl font-bold text-white">Muntakim.</span>
           </div>
           <span className="hidden md:block font-medium text-white">
