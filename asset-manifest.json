@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-pages/static/css/main.26e5504d.css",
-    "main.js": "/react-pages/static/js/main.2d1a11ac.js",
-    "static/js/787.d2050162.chunk.js": "/react-pages/static/js/787.d2050162.chunk.js",
-    "static/media/background.png": "/react-pages/static/media/background.a54901a72a7e3afe6005.png",
-    "index.html": "/react-pages/index.html",
-    "main.26e5504d.css.map": "/react-pages/static/css/main.26e5504d.css.map",
-    "main.2d1a11ac.js.map": "/react-pages/static/js/main.2d1a11ac.js.map",
-    "787.d2050162.chunk.js.map": "/react-pages/static/js/787.d2050162.chunk.js.map"
+    "main.css": "/munta-portfolio/static/css/main.6942b467.css",
+    "main.js": "/munta-portfolio/static/js/main.5c0cf9fc.js",
+    "static/js/787.d2050162.chunk.js": "/munta-portfolio/static/js/787.d2050162.chunk.js",
+    "static/media/background.png": "/munta-portfolio/static/media/background.a54901a72a7e3afe6005.png",
+    "index.html": "/munta-portfolio/index.html",
+    "main.6942b467.css.map": "/munta-portfolio/static/css/main.6942b467.css.map",
+    "main.5c0cf9fc.js.map": "/munta-portfolio/static/js/main.5c0cf9fc.js.map",
+    "787.d2050162.chunk.js.map": "/munta-portfolio/static/js/787.d2050162.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26e5504d.css",
-    "static/js/main.2d1a11ac.js"
+    "static/css/main.6942b467.css",
+    "static/js/main.5c0cf9fc.js"
   ]
 }
