@@ -476,7 +476,7 @@ function App() {
 
           <div className="p-5 sm:p-0 flex flex-wrap justify-between">
             <div className="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-              <img className="w-10" src="./img/icon.png" alt="" />
+              <img className="w-10" src="./img/data-science.png" alt="" />
               <h1 className="font-medium text-lg dark:text-white">
                 Data Driven Product Development
               </h1>
@@ -501,7 +501,7 @@ function App() {
             </div>
 
             <div className="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-              <img className="w-10" src="./img/icon.png" alt="" />
+              <img className="w-10" src="./img/vision.png" alt="" />
               <h1 className="font-medium text-lg dark:text-white">
                 Computer Vision
               </h1>
@@ -523,7 +523,7 @@ function App() {
             </div>
 
             <div className="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-              <img className="w-10" src="./img/icon.png" alt="" />
+              <img className="w-10" src="./img/data-analysis.png" alt="" />
               <h1 className="font-medium text-lg dark:text-white">
                 Data Analytics
               </h1>
@@ -545,7 +545,7 @@ function App() {
             </div>
 
             <div className="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-              <img className="w-10" src="./img/icon.png" alt="" />
+              <img className="w-10" src="./img/line-chart.png" alt="" />
               <h1 className="font-medium text-lg dark:text-white">
                 Time Series Analysis
               </h1>
@@ -567,7 +567,7 @@ function App() {
             </div>
 
             <div className="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-              <img className="w-10" src="./img/icon.png" alt="" />
+              <img className="w-10" src="./img/analytics.png" alt="" />
               <h1 className="font-medium text-lg dark:text-white">
                 Dashboard Development
               </h1>
@@ -589,7 +589,11 @@ function App() {
             </div>
 
             <div className="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-              <img className="w-10" src="./img/icon.png" alt="" />
+              <img
+                className="w-10"
+                src="./img/natural-language-processing.png"
+                alt=""
+              />
               <h1 className="font-medium text-lg dark:text-white">
                 Natural Language processing
               </h1>
