@@ -43,8 +43,8 @@ const data = [
 ]
 
 const layout = {
-    width: 650,
-    height: 450,
+    width: 700,
+    height: 550,
     hovermode: 'closest',
     margin: {
         t: 10,
