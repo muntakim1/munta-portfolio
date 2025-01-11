@@ -1,0 +1,58 @@
+{
+    "positions": [
+      {
+        "title": "Data Science Intern",
+        "company": "FamaCash",
+        "employmentType": "Full-time",
+        "duration": "Oct 2020 - Nov 2020 · 2 mos",
+        "location": "Pennsylvania, United States · Remote",
+        "responsibilities": [
+          "Solve Business related problems using data-driven techniques.",
+          "Create data-driven models for User Behavior, Sales, and Revenue.",
+          "Learn and apply knowledge of Machine Learning and Artificial Intelligence on projects.",
+          "Perform ad-hoc analyses.",
+          "Work closely with executives on frequent report updates, research, and development."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Leading Engineers",
+        "employmentType": "Full-time",
+        "duration": "May 2021 - Apr 2022 · 1 yr",
+        "location": "Sydney, New South Wales, Australia · Remote",
+        "responsibilities": [
+          "Developed a housing price forecasting model for suburban areas in Australia.",
+          "Processed council office documents using machine learning to enhance client services.",
+          "Created a platform for visualizing geographical states (flood-prone areas, deserts, populations) using Cesium & mapbox for map applications.",
+          "Implemented a generative design algorithm for producing floor plans and city plans."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Innova Analytics",
+        "employmentType": "Full-time",
+        "duration": "Jun 2022 - Jan 2025 · 2 yrs 8 mos",
+        "location": "Australia · Remote",
+        "responsibilities": [
+          "Developed and optimised techniques for streaming data with cloud products.",
+          "Utilized time series analytics to create a pump run life analytics dashboard from well data.",
+          "Implemented a graph-based solution for identifying similarities in well analysis data.",
+          "Developed PPE detection system with real-time alerts using computer vision technologies.",
+          "Developed Majan IoT dashboard for efficient management of IoT devices."
+        ]
+      },
+      {
+        "title": "Data Science Consultant",
+        "company": "Apex36Tech (Current)",
+        "employmentType": "Part-time",
+        "duration": "2025 - Present",
+        "location": "Maharashtra, India, Remote",
+        "responsibilities": [
+          "Building LLM agents.",
+          "Building bespoke RAG systems.",
+          "Fine Tuning LLM models.",
+          "Bespoke chat bot with LLM."
+        ]
+      }
+    ]
+  }
