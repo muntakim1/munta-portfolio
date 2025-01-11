@@ -40,7 +40,7 @@ function App() {
       </div>
 
       <div className="p-4">
-        <h2 className="text-3xl font-bold text-center mt-4">Experties</h2>
+        <h2 className="text-3xl font-bold text-center mt-4 mb-2">Experties</h2>
         <Plot
               data={data_Skill}
               layout={layout_skill}
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <div id="mydiv" className="p-4">
-        <h2 className="text-3xl font-bold text-center mt-4">Work Experience</h2>
+        <h2 className="text-3xl font-bold text-center mt-4 mb-2">Work Experience</h2>
         <div className="flex mb-4">
           <div className="w-1/2 p-4" style={{ width: '70%' }}>
             <Plot
