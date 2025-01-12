@@ -44,7 +44,7 @@ const data = [
 
 const layout = {
     width: 700,
-    height: 550,
+    height: 620,
     hovermode: 'closest',
     margin: {
         t: 10,
@@ -58,8 +58,8 @@ const layout = {
         center: { lon: 39.826168, lat: 21.4241 },
         zoom: 0.001
     },
-    paper_bgcolor: '#1f1f1f',
-    plot_bgcolor: '#1f1f1f',
+    paper_bgcolor: '#111827',
+    plot_bgcolor: '#111827',
     legend: {
         title: {
             text: 'Companies',

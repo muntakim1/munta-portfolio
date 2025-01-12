@@ -25,16 +25,19 @@ const data_Skill = [
             20, 7, 7, 6, 20, 5, 5, 5, 5, 10, 3, 3, 4,
             100, 40, 20, 20, 30, 15, 15, 25, 12, 13,
             20, 10, 10, 10, 5, 5],
-        "leaf": { "opacity": 0.4 },
+        "leaf": { "opacity": 0.9 },
         "marker": { "line": { "width": 2 } },
-        "branchvalues": 'reminder'
+        "branchvalues": 'reminder',
+        "textfont": {
+            "color": "#fff" // Change this to the desired color, for example, a shade of blue.
+        }
     }];
 const layout_skill = {
     width: 800,
     height: 750,
     "margin": { "l": 0, "r": 0, "b": 0, "t": 0 },
-    paper_bgcolor: '#1f1f1f',
-    plot_bgcolor: '#1f1f1f',
+    paper_bgcolor: '#111827',
+    plot_bgcolor: '#111827',
     legend: {
         title: {
             text: 'Companies',
