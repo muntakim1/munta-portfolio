@@ -38,18 +38,25 @@ function App() {
             team player dedicated to driving data-informed strategies and decisions.
           </p>
       </div>
-
-      <div className="p-4">
-        <h2 className="text-3xl font-bold text-center mt-4 mb-2">Experties</h2>
-        <Plot
-              data={data_Skill}
-              layout={layout_skill}
-              config={{ displayModeBar: false,showSendToCloud: true }}
-              // onClick={(event) => setCompany(event['points'][0]['data']['name'])}
-            />
+      <div>
+      <marquee direction="">
+        <div className="p-4 flex justify-center">
+      <div className="w-1/4 rounded-md bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
+        Data Engineering
       </div>
-
-      <div id="mydiv" className="p-4">
+      <div className="w-1/4 rounded-md bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
+        Data Science
+      </div>
+      <div className="w-1/4 rounded-m d bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
+        Machine Learning
+      </div>
+      <div className="w-1/4 rounded-md bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
+        MLOps Engineering
+      </div>
+      </div>
+      </marquee>
+      </div>
+      <div className="p-4">
         <h2 className="text-3xl font-bold text-center mt-4 mb-2">Work Experience</h2>
         <div className="flex mb-4">
           <div className="w-1/2 p-4" style={{ width: '70%' }}>
@@ -76,6 +83,17 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="p-4">
+        <h2 className="text-3xl font-bold text-center mt-4 mb-2">Experties</h2>
+        <Plot
+              data={data_Skill}
+              layout={layout_skill}
+              config={{ displayModeBar: false,showSendToCloud: true }}
+              // onClick={(event) => setCompany(event['points'][0]['data']['name'])}
+            />
+      </div>
+
+    
     </>
   );
 }
