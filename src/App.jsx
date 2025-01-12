@@ -6,7 +6,6 @@ import {data_Skill,layout_skill} from './data/skills_graph'
 import Plot from 'react-plotly.js';
 import ExperienceCard from './components/ExperienceCard';
 import experienceData from './data/experienc.json';
-import ContactCard from './components/pages/Contacts';
 
 function App() {
   const [company, setCompany] = useState('');
@@ -49,6 +48,12 @@ function App() {
       </div>
       <div className="w-1/4 rounded-m d bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
         Machine Learning
+      </div>
+      <div className="w-1/4 rounded-m d bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
+        Deep Learning
+      </div>
+      <div className="w-1/4 rounded-m d bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
+        Conversational & Generative A.I.
       </div>
       <div className="w-1/4 rounded-md bg-slate-800 py-2 px-3 border border-transparent text-sm text-white text-center transition-all shadow-sm m-1">
         MLOps Engineering
