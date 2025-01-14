@@ -10,6 +10,8 @@ import Skills from "./components/pages/Skills";
 import ChatOverlay from "./components/ChatOverlayComponent";
 import ContactSection from "./components/pages/Contacts";
 import TestimonialSlideshow from "./components/pages/Testimonials";
+import Education from "./components/pages/Education";
+
 function App() {
   const [company, setCompany] = useState("");
   const selectedExperience = experienceData.positions.find(
@@ -21,6 +23,7 @@ function App() {
       <div className="absolute inset-0 h-full">
         <div className="bg-gradient-to-br from-blue-900 via-gray-800 to-gray-900 opacity-50"></div>
       </div>
+
       <div className="flex flex-col items-center p-4">
         <div className="mb-4">
           <img
@@ -37,6 +40,7 @@ function App() {
         selectedExperience={selectedExperience}
       ></Experience>
       <Skills data_Skill={data_Skill} layout_skill={layout_skill}></Skills>
+      <Education></Education>
       <ChatOverlay></ChatOverlay>
       <TestimonialSlideshow></TestimonialSlideshow>
       <ContactSection />
