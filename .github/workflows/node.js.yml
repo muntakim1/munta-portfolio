@@ -22,4 +22,3 @@ jobs:
         with:
           folder: dist # The folder the action should deploy.
           token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-\
