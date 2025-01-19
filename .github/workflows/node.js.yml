@@ -21,4 +21,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist # The folder the action should deploy.
-          token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+          ssh-key: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
