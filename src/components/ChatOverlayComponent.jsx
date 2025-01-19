@@ -32,7 +32,7 @@ const ChatOverlay = () => {
           console.log(encodedInput);
           // Call the API
           const res = await axios.post(
-            `http://127.0.0.1:5000/api/ask?query=${encodedInput}`
+            `http://103.141.2.165:11300/api/ask?query=${encodedInput}`
           );
 
           // Replace the "Typing..." message with the actual response
