@@ -37,4 +37,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           BASE_BRANCH: main
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: dist # The folder the action should deploy.
+          FOLDER: dist/
+          DEBUG: true # The folder the action should deploy.
