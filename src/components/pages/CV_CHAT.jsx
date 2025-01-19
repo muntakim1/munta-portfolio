@@ -13,7 +13,9 @@ const RAGChat = () => {
     setResponse("");
 
     try {
-      const res = await axios.post("http://localhost:8000/api/ask", { query });
+      const res = await axios.post("http://103.141.2.165:11300/api/ask", {
+        query,
+      });
       setResponse(res.data.response);
     } catch (err) {
       console.error(err);
