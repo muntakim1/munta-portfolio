@@ -8,7 +8,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,7 +33,7 @@ jobs:
         run: npm run build --if-present
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@4.7.2
         with:
           token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           branch: gh-pages # The branch the action should deploy to.
