@@ -11,7 +11,7 @@ const RAGChat = () => {
 
     setLoading(true);
     setResponse("");
-
+    //new api
     try {
       const res = await axios.post("http://103.141.2.165:11300/api/ask", {
         query,
