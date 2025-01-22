@@ -10,7 +10,7 @@ const Experience = ({ setCompany, selectedExperience }) => {
         Work Experience
       </h2>
       <div className="flex mb-4">
-        <div className="w-1/2 p-4" style={{ width: "70%" }}>
+        <div className="w-1/3 p-4" style={{ width: "65%" }}>
           <Plot
             data={data}
             layout={layout}
@@ -18,7 +18,7 @@ const Experience = ({ setCompany, selectedExperience }) => {
             onClick={(event) => setCompany(event["points"][0]["data"]["name"])}
           />
         </div>
-        <div className="w-1/2 p-4">
+        <div className="w-2/3 p-4">
           {selectedExperience ? (
             <ExperienceCard
               company={selectedExperience.company}
