@@ -11,6 +11,7 @@ import ChatOverlay from "./components/ChatOverlayComponent";
 import ContactSection from "./components/pages/Contacts";
 import TestimonialSlideshow from "./components/pages/Testimonials";
 import Education from "./components/pages/Education";
+import Portfolio from "./components/pages/Portfolio";
 
 function App() {
   const [company, setCompany] = useState("");
@@ -42,6 +43,7 @@ function App() {
       <Skills data_Skill={data_Skill} layout_skill={layout_skill}></Skills>
       <Education></Education>
       <ChatOverlay></ChatOverlay>
+      <Portfolio></Portfolio>
       <TestimonialSlideshow></TestimonialSlideshow>
       <ContactSection />
     </div>
